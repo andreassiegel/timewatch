@@ -1,7 +1,10 @@
 = Timewatch
+ifdef::env-github[:USER: andreassiegel]
+ifdef::env-github[:REPO: timewatch]
+ifdef::env-github[:BRANCH: master]
 
 This is a little tool that allows for tracking of the uptime of a computer.
 It is intended as a work time tracker.
 
-image:https://travis-ci.org/andreassiegel/timewatch.svg?branch=master["Build Status", link="https://travis-ci.org/andreassiegel/timewatch"]
-image:https://coveralls.io/repos/github/andreassiegel/timewatch/badge.svg?branch=master["Test Coverage", link="https://coveralls.io/github/andreassiegel/timewatch?branch=master"]
+image:https://travis-ci.org/{USER}/{REPO}.svg?branch={BRANCH}["Build Status", link="https://travis-ci.org/{USER}/{REPO}"]
+image:https://coveralls.io/repos/github/{USER}/{REPO}/badge.svg?branch={BRANCH}["Test Coverage", link="https://coveralls.io/github/{USER}/{REPO}?branch={BRANCH}"]
