@@ -4,3 +4,4 @@ This is a little tool that allows for tracking of the uptime of a computer.
 It is intended as a work time tracker.
 
 image:https://travis-ci.org/andreassiegel/timewatch.svg?branch=master["Build Status", link="https://travis-ci.org/andreassiegel/timewatch"]
+image:https://coveralls.io/repos/github/andreassiegel/timewatch/badge.svg?branch=master["Test Coverage", link="https://coveralls.io/github/andreassiegel/timewatch?branch=master"]
