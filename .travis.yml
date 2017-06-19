@@ -9,6 +9,6 @@ install:
   - go get github.com/go-playground/overalls
 
 script:
-  - go test -v -race ./...
+  - go test -v ./...
   - overalls -project=github.com/andreassiegel/timewatch -covermode=count
   - $HOME/gopath/bin/goveralls -coverprofile=overalls.coverprofile -service=travis-ci -repotoken $COVERALLS_REPO_TOKEN
