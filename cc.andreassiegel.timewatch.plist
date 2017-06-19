@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Label</key>
+        <string>cc.andreassiegel.timewatch</string>
+        <key>ProgramArguments</key>
+        <array>
+            <string>$GOPATH/bin/timewatch</string>
+        </array>
+        <key>KeepAlive</key>
+        <true/>
+        <key>StandardOutPath</key>
+        <string>$HOME/.timewatch/log/timewatch.log</string>
+        <key>StandardErrorPath</key>
+        <string>$HOME/.timewatch/log/timewatch.log</string>
+    </dict>
+</plist>
